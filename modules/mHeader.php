@@ -8,7 +8,7 @@ $side = $_GET["side"];
 ?>
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
   <div class="container">
     <a class="navbar-brand" href="index.php">Smartphone Store</a>
 

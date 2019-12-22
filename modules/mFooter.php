@@ -1,5 +1,5 @@
     <!-- Footer -->
-  <footer class="py-2 bg-info">
+  <footer class="py-2 bg-danger">
     <div class="container-fluid">
       <p class="m-0 text-center text-white">Copyright &copy; Student of HCMUS 2019</p>
 
