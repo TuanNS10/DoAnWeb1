@@ -37,10 +37,10 @@
       <a href="pages/qlDonDatHang/xlDonDatHang.php?a=2&id=<?php echo $id; ?>" class="btnGiaoHang btn btn-primary">
            Giao hàng
       </a>
-      <a href="pages/qlDonDatHang/xlDonDatHang.php?a=2&id=<?php echo $id; ?>" class="btnThanhToan btn btn-success">
+      <a href="pages/qlDonDatHang/xlDonDatHang.php?a=3&id=<?php echo $id; ?>" class="btnThanhToan btn btn-success">
            Thanh toán
       </a>
-      <a href="pages/qlDonDatHang/xlDonDatHang.php?a=2&id=<?php echo $id; ?>" class="btnHuy btn btn-danger">
+      <a href="pages/qlDonDatHang/xlDonDatHang.php?a=4&id=<?php echo $id; ?>" class="btnHuy btn btn-danger">
            Hủy đơn hàng
       </a>
       <a href="#" onclick="window.print();" class="btnInDonHang btn btn-info">

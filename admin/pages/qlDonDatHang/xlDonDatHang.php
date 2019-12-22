@@ -10,7 +10,7 @@
         DataProvider::ExecuteQuery($sql);
 
         //Cập nhập số lượng  của sản phẩm đối với các đơn hàng bị hủy
-        if(a == 4)
+        if($a == 4)
         {
             $sql = "SELECT MaSanPham, SoLuong FROM ChiTietDonDatHang WHERE MaDonDatHang = $id";
             $result = DataProvider::ExecuteQuery($sql);
