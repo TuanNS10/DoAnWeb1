@@ -27,12 +27,6 @@ $side = $_GET["side"];
         <li class="nav-item">
           <a class="nav-link<?php if($layout==1&&$side==2) echo " active"; ?>" href="index.php?layout=1&side=2&content=5">Sản phẩm</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
       </ul>
     </div>
 

@@ -17,7 +17,7 @@
                //xu ly cap nhap so luon moi
 
                $gioHang->update($id, $sl);
-               $_SESSION["GioHang"]==serialize($gioHang);
+               $_SESSION["GioHang"]=serialize($gioHang);
 
            }
            else

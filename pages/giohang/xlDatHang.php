@@ -8,7 +8,7 @@ if(isset($_SESSION["GioHang"]))
     $gioHang = unserialize($_SESSION["GioHang"]);
     $maTaiKhoan =$_SESSION["MaTaiKhoan"];
 
-    date_default_timezone_get("Asia/Ho_Chi_Minh");
+    date_default_timezone_set("Asia/Ho_Chi_Minh");
     $ngayLap=date("Y-m-d H:i:s");
     $ngayLapTam=date("Y-m-d");
     $maTinhTrang = 1;
@@ -29,7 +29,7 @@ if(isset($_SESSION["GioHang"]))
     $maDonDatHang = date("d").date("m").substr(date("Y"),2,2).$sttMaDonDatHang;
 
     //tao don dat hang moi va luu xuong csdl bang don dat hang
-    $sql = "INSERT INTO DonDatHang(MaDonDatHang,NgayLap,TongThanhTien,MaTaiKhoan,MaTinhTrang)'$ngayLap',$tongGia,$maTaiKhoan,$maTinhTrang)";
+    $sql = "INSERT INTO DonDatHang(MaDonDatHang,NgayLap,TongThanhTien,MaTaiKhoan,MaTinhTrang) VALUES ('$maDonDatHang','$ngayLap',$tongGia,$maTaiKhoan,$maTinhTrang)";
     DataProvider::ExecuteQuery($sql);
     
     //-------------------------------------------
@@ -52,13 +52,13 @@ if(isset($_SESSION["GioHang"]))
         $maChiTietDonDatHang = $maDonDatHang.$sttChiTietDonDatHang;
 
         //2.2 them 1 dong moi vao bang Chitietdon dathang
-        $sql = "INSERT INTO ChiTietDonDatHang(MaChiTietDonDatHang,SoLuong,GiaBan,MaDonDatHang,MaSanPham)VALUES('$maChiTietDonDatHang',$sl,$giaSanPham,'$maDonDatHang',$id";
+        $sql = "INSERT INTO ChiTietDonDatHang(MaChiTietDonDatHang,SoLuong,GiaBan,MaDonDatHang,MaSanPham) VALUES ('$maChiTietDonDatHang',$sl,$giaSanPham,'$maDonDatHang',$id)";
         DataProvider::ExecuteQuery($sql);
 
         //2.3 update lai so luong ton cua bang san pham
         $soLuongTonMoi = $soLuongTonHienTai - $sl;
         $sql = "UPDATE SanPham SET SoLuongTon = $soLuongTonMoi WHERE MaSanPham=$id";
-
+        DataProvider::ExecuteQuery($sql);
     }
     unset($_SESSION["GioHang"]);
     DataProvider::ChangeURL("../../index.php?layout=2&sub=2");

@@ -180,7 +180,7 @@ INSERT INTO `sanpham` (`MaSanPham`, `TenSanPham`, `HinhURL`, `GiaSanPham`, `Ngay
 (9, 'Điện thoại iPhone 8 Plus 64GB', 'iphone-8-plus-hh-600x600-600x600.jpg', 15900000, '2019-01-01 00:00:00', 24, 6, 20, 'Màn hình:	LED-backlit IPS LCD, 5.5\", Retina HD\r\nHệ điều hành:	iOS 12\r\nCamera sau:	Chính 12 MP & Phụ 12 MP\r\nCamera trước:	7 MP\r\nCPU:	Apple A11 Bionic 6 nhân\r\nRAM:	3 GB\r\nBộ nhớ trong:	64 GB', 0, 7, 1),
 (10, 'Điện thoại iPhone 7 32GB', 'iphone-7-plus-32gb-gold-600x600-600x600.jpg', 7000000, '2019-08-15 00:00:00', 28, 7, 9, 'Màn hình:	LED-backlit IPS LCD, 4.7\", Retina HD\r\nHệ điều hành:	iOS 12\r\nCamera sau:	12 MP\r\nCamera trước:	7 MP\r\nCPU:	Apple A10 Fusion 4 nhân\r\nRAM:	2 GB\r\nBộ nhớ trong:	32 GB', 0, 3, 1),
 (11, 'Samsung Galaxy Fold', 'samsung-galaxy-fold-black-600x600.jpg', 50000000, '2019-09-01 00:00:00', 38, 3, 41, 'Màn hình: Chính 7.3\" & Phụ 4.6\", Quad HD (2K)\r\nCPU: Snapdragon 855 8 nhân\r\nRAM: 12 GB, ROM: 512 GB\r\nCamera: Chính 12 MP & Phụ 12 MP, 16 MP\r\nSelfie: Trong: 10 MP, 8 MP; Ngoài: 10 MP\r\nPIN: 4380 mAh, có sạc nhanh', 0, 8, 2),
-(12, 'Samsung Galaxy S10+(512GB)', 'samsunggalaxy-s-moi-2-512gb-black-600x600.jpg', 28900000, '2019-10-02 00:00:00', 20, 0, 2, 'Màn hình: 6.4\", Quad HD+ (2K+)\r\nCPU: Exynos 9820 8 nhân\r\nRAM: 8 GB, ROM: 512 GB\r\nCamera: Chính 12 MP & Phụ 12 MP, 16 MP\r\nSelfie: Chính 10 MP & Phụ 8 MP\r\nPIN: 4100 mAh, có sạc nhanh\r\n', 0, 6, 2),
+(12, 'Samsung Galaxy S10+(512GB)', 'samsung-galaxy-a50s-green-600x600.jpg', 28900000, '2019-10-02 00:00:00', 20, 0, 2, 'Màn hình: 6.4\", Quad HD+ (2K+)\r\nCPU: Exynos 9820 8 nhân\r\nRAM: 8 GB, ROM: 512 GB\r\nCamera: Chính 12 MP & Phụ 12 MP, 16 MP\r\nSelfie: Chính 10 MP & Phụ 8 MP\r\nPIN: 4100 mAh, có sạc nhanh\r\n', 0, 6, 2),
 (13, 'Điện thoại Samsung Galaxy A50 128GB', 'samsung-galaxy-a50s-green-600x600.jpg', 7900000, '2019-10-04 00:00:00', 10, 2, 15, 'Màn hình:	Super AMOLED, 6.4\", Full HD+\r\nHệ điều hành:	Android 9.0 (Pie)\r\nCamera sau:	Chính 25 MP & Phụ 8 MP, 5 MP\r\nCamera trước:	25 MP\r\nCPU:	Exynos 9610 8 nhân\r\nRAM:	6 GB\r\nBộ nhớ trong:	128 GB', 0, 4, 2),
 (14, 'Samsung Galaxy A20(64GB)', 'samsung-galaxy-a20s-black-600x600.jpg', 4990000, '2019-09-25 00:00:00', 5, 5, 1, 'Màn hình: 6.5\", HD+ CPU: Snapdragon 450 8 nhân RAM: 4 GB, ROM: 64 GB Camera: Chính 13 MP & Phụ 8 MP, 5 MP Selfie: 8 MP PIN: 4000 mAh, có sạc nhanh', 0, 3, 2),
 (15, 'Samsung Galaxy A30 3GB/32GB', 'samsung-galaxy-a20s-black-600x600.jpg', 4900000, '2019-08-27 00:00:00', 19, 3, 3, 'Màn hình: 6.4\", Full HD+\r\nCPU: Exynos 7904 8 nhân\r\nRAM: 3 GB, ROM: 32 GB\r\nCamera: Chính 16 MP & Phụ 5 MP\r\nSelfie: 16 MP\r\nPIN: 4000 mAh, có sạc nhanh', 0, 3, 2),
@@ -201,7 +201,7 @@ INSERT INTO `sanpham` (`MaSanPham`, `TenSanPham`, `HinhURL`, `GiaSanPham`, `Ngay
 (30, 'Vivo Y93', 'vivo-y93-32gb-black-600x600.jpg', 1990000, '2019-10-01 00:00:00', 4, 2, 2, 'Màn hình: 6.2\", HD+\r\nCPU: Snapdragon 439 8 nhân\r\nRAM: 3 GB, ROM: 32 GB\r\nCamera: Chính 13 MP & Phụ 2 MP\r\nSelfie: 8 MP\r\nPIN: 4030 mAh\r\n', 0, 1, 6),
 (31, 'Vivo Y11', 'vivo-y93-32gb-black-600x600.jpg', 1990000, '2019-10-05 00:00:00', 2, 6, 5, 'Màn hình: 6.35\", HD+\r\nCPU: Snapdragon 439 8 nhân\r\nRAM: 3 GB, ROM: 32 GB\r\nCamera: Chính 13 MP & Phụ 2 MP\r\nSelfie: 8 MP\r\nPIN: 5000 mAh\r\n', 0, 1, 6),
 (32, 'Vivo Y12', 'vivo-y93-32gb-black-600x600.jpg', 1900000, '2019-10-06 00:00:00', 3, 0, 0, 'Màn hình: 6.35\", HD+\r\nCPU: MediaTek MT6762 8 nhân (Helio P22)\r\nRAM: 3 GB, ROM: 64 GB\r\nCamera: Chính 13 MP & Phụ 8 MP, 2 MP\r\nSelfie: 8 MP\r\nPIN: 5000 mAh\r\nP', 0, 1, 6),
-(33, 'Realme 5 Pro', 'Syma_x1_01.jpg', 6990000, '2019-10-06 00:00:00', 4, 2, 16, 'Màn hình: 6.3\", Full HD+\r\nCPU: Snapdragon 712 8 nhân\r\nRAM: 4 GB, ROM: 128 GB\r\nCamera: Chính 48 MP & Phụ 8 MP, 2 MP, 2 MP\r\nSelfie: 16 MP\r\nPIN: 4035 mAh, có sạc nhanh\r\n', 0, 3, 5),
+(33, 'Realme 5 Pro', 'realme-5s-red-600x600.jpg', 6990000, '2019-10-06 00:00:00', 4, 2, 16, 'Màn hình: 6.3\", Full HD+\r\nCPU: Snapdragon 712 8 nhân\r\nRAM: 4 GB, ROM: 128 GB\r\nCamera: Chính 48 MP & Phụ 8 MP, 2 MP, 2 MP\r\nSelfie: 16 MP\r\nPIN: 4035 mAh, có sạc nhanh\r\n', 0, 3, 5),
 (34, 'Realme XT', 'realme-xt-white-1-600x600.jpg', 7990000, '2019-12-04 00:00:00', 15, 23, 32, 'Màn hình: 6.4\", Full HD+\r\nCPU: Snapdragon 712 8 nhân\r\nRAM: 8 GB, ROM: 128 GB\r\nCamera: Chính 64 MP & Phụ 8 MP, 2 MP, 2 MP\r\nSelfie: 16 MP\r\nPIN: 4000 mAh, có sạc nhanh\r\n', 0, 7, 5),
 (35, 'Realme 5 (4GB/128GB)', 'realme-5s-red-600x600.jpg', 4690000, '2019-12-04 00:00:00', 20, 5, 12, 'Màn hình: 6.5\", HD+\r\nCPU: Snapdragon 665 8 nhân\r\nRAM: 4 GB, ROM: 128 GB\r\nCamera: Chính 12 MP & Phụ 8 MP, 2 MP, 2 MP\r\nSelfie: 13 MP\r\nPIN: 5000 mAh', 0, 7, 5),
 (36, 'Realme C2 32GB', 'realme-c2-16gb-new-blue-600x600.jpg', 2990000, '2019-12-04 00:00:00', 15, 6, 17, 'Màn hình: 6.1\", HD+\r\nCPU: MediaTek MT6762 8 nhân (Helio P22)\r\nRAM: 3 GB, ROM: 32 GB\r\nCamera: Chính 13 MP & Phụ 2 MP\r\nSelfie: 5 MP\r\nPIN: 4000 mAh\r\n', 0, 7, 5),
@@ -234,9 +234,9 @@ CREATE TABLE `taikhoan` (
 
 INSERT INTO `taikhoan` (`MaTaiKhoan`, `TenDangNhap`, `MatKhau`, `TenHienThi`, `DiaChi`, `DienThoai`, `Email`, `BiXoa`, `MaLoaiTaiKhoan`) VALUES
 (1, 'ndhuy', 'ndhuy', 'Đức Huy', '227 - Nguyễn Văn Cừ - Q.5', '01234567890', 'ndhuy@gmail.com', 0, 1),
-(5, 'admin', 'admin', 'Admin website', 'Baby Shop', '0909123456', 'admin@babyshop.vn', 0, 2),
-(6, 'sanhtuan', '', 'Sanh Tuấn', 'Hồ Chí Minh', '0342250192', 'st123@gmail.com', 1, 1),
-(7, 'sanhtuan123', 'st12345', 'Sao Cũng Được', 'Linh Trung, Thủ Đức, TP.Hồ Chí Minh', '0342250192', 'st123@gmail.com', 0, 2);
+(2, 'admin', 'admin', 'Admin website', 'Smartphone Store', '0909123456', 'admin@smartphonestore.vn', 0, 2),
+(3, 'sanhtuan', '', 'Sanh Tuấn', 'Hồ Chí Minh', '0342250192', 'st123@gmail.com', 1, 1),
+(4, 'sanhtuan123', 'st12345', 'Sao Cũng Được', 'Linh Trung, Thủ Đức, TP.Hồ Chí Minh', '0342250192', 'st123@gmail.com', 0, 2);
 
 -- --------------------------------------------------------
 

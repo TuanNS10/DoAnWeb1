@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+<nav class="navbar navbar-expand-sm bg-danger navbar-dark fixed-top">
   <div class="container-fluid">
     <!-- Brand/logo -->
     <a class="navbar-brand mr-auto" href="index.php">Trang quản trị</a>
@@ -14,7 +14,7 @@
       if (isset($_SESSION["MaTaiKhoan"])) {
       ?>
 
-        <div class="username"><?php echo "Hello, " . $_SESSION["TenHienThi"];  ?></div>,
+        <div class="username"><?php echo "Hello, " . $_SESSION["TenHienThi"];  ?></div> 
         <div class="nav-icon">
 
           <div class="dropdown">
@@ -26,7 +26,7 @@
 
                 <div class="dropdown-divider mt-0"></div>
 
-                <a href="../pages/dangnhap/xlDangXuat.php">Đăng xuất </a>
+                <a href="../pages/dangnhap/xlDangXuat.php">Đăng xuất</a>
               </form>
             </div>
           </div>
