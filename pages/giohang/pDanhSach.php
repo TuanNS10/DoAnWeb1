@@ -1,13 +1,13 @@
 <div id="quanlygiohang">
-   <h1>Quản lý giỏ hàng</h1>
-   <table>
-       <tr>
-          <th width="20">STT</th>
-          <th>Tên sản phẩm </th>
-          <th width="60">Hình</th>
-          <th width="50">Giá</th>
-          <th width="50">Số lượng</th>
-          <th width="50">Thao tác</th>
+   <center><h1>Quản lý giỏ hàng</h1></center>
+   <center><table>
+       <tr width=200>
+          <th width="100" width="20">STT</th>
+          <th><center>Tên sản phẩm </center></th>
+          <th width="100"><center>Hình</center></th>
+          <th width="100"><center>Giá</center></th>
+          <th width="100"><center>Số lượng</center></th>
+          <th width="100"><center>Thao tác</center></th>
         </tr>
         <?php
            $tongGia = 0;
@@ -51,11 +51,11 @@
            }
            $_SESSION["TongGia"]=$tongGia;
            ?>
-           </table>
+           </table></center>
            <div class="pprice">
-              Tổng thành tiền: <?php echo $tongGia; ?> đ
+              <center>Tổng thành tiền: <?php echo $tongGia; ?> đ</center>
            </div>
-    <a href="pages/GioHang/xlDathang.php">
+    <center><a href="pages/GioHang/xlDathang.php">
     <i class="fa fa-shopping-cart"></i>
-    </a>
+    </a></center>
   </div>

@@ -23,7 +23,7 @@ require_once('./lib/ItemCard.php');
           include "pSide.php";
           break;
         case 2:
-          include "pSideTimKiem.php";
+          include "timkiemnangcao/pSideTimKiem.php";
           break;
         default:
           include "pages/p404error.php";
@@ -63,7 +63,7 @@ require_once('./lib/ItemCard.php');
           include "pages/pChiTietSanPham.php";
           break;
         case 5:
-          include "pages/pSanPhamTimKiemNangCao.php";
+          include "timkiemnangcao/pSanPhamTimKiemNangCao.php";
           break;
         default:
           include "pages/p404error.php";

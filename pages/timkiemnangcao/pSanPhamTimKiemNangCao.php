@@ -1,14 +1,13 @@
 <?php
-if (isset($_POST['searchTxt'])) {
+if (isset($_POST['searchTxt'])) { //nội dung tìm kiếm
     $value = $_POST['searchTxt'];
-    $sql = "select * from SanPham where BiXoa = 0 and TenSanPham like '%$value%'";
+    $term = mysql_real_escape_string($_REQUEST['term']);
+    $sql = "SELECT * FROM sanpham WHERE BiXoa = 0 AND TenSanPham LIKE '%".$term."%'";
     $result = DataProvider::ExecuteQuery($sql);
-}else
-{
-    $sql = "select * from SanPham where BiXoa = 0";
+} else {
+    $sql = "SELECT * FROM sanpham WHERE BiXoa = 0";
     $result = DataProvider::ExecuteQuery($sql);
 }
-
 ?>
 
 <!-- BEGIN RESULT -->
@@ -17,21 +16,15 @@ if (isset($_POST['searchTxt'])) {
         <div class="col-md-9">
             <h3><i class="fa fa-search"></i> Kết quả</h3>
             <hr>
-            <!-- BEGIN SEARCH INPUT -->
-            <div class="input-group">
-                <input type="text" class="form-control" value="Ấn để lọc sản phẩm">
-                <span class="input-group-btn">
-                    <button class="btn btn-primary" type="button"><i class="fa fa-search"></i></button>
-                </span>
-            </div>
-            <!-- END SEARCH INPUT -->
+
         </div>
     </div>
     <hr>
+    <!-- BEGIN DANH SÁCH SẢN PHẨM -->
     <div class="result">
         <h4>Danh sách sản phẩm</h4>
         <hr class="w-50">
-        <div class="row">
+        <div class="row" id="data">
 
             <?php
             while ($row = mysqli_fetch_array($result)) {
@@ -39,7 +32,8 @@ if (isset($_POST['searchTxt'])) {
                 $itemcard->create();
             }
             ?>
-            
+
+
         </div>
     </div>
 
